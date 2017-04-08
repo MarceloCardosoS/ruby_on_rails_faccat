@@ -13,10 +13,10 @@ puts "===> Criando Conta Admin"
 
 printf ">>>>>> Criando páginas exemplo ... "
  
-  10.times do |contador|
+  10.times do |index|
     Page.create!(
-      slug: "pagina-#{contador}",
-      title: "Título #{contador}",
+      slug: "pagina-#{index}",
+      title: "Título #{index}",
       body: "Lorem ipsum dolor sit amet"
     )
   end
